@@ -1,24 +1,19 @@
-import Navigation from "./components/Navigation";
-import Masthead from "./components/Masthead";
-import About from "./components/About";
-import Services from "./components/Services";
-import Portfolio from "./components/Portfolio";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
 
-import './App.css';
+import Hero from "./Components/Hero";
+import About from "./Components/About";
+import Projects from "./Components/Projects";
+import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
+import"./style/main.scss"
 
     function App() {
       return (
         <div>
-          <Navigation />
-          <Masthead />
-          <About />
-          <Services /> 
-          <Portfolio /> 
-          <Contact />
-          <Footer />
-      
+      <Hero />
+      <About />
+      <Projects />
+      <Contact />
+      <Footer />
         </div>
       );
     }

@@ -1,33 +1,36 @@
 import React from "react";
-import "./style.css";
+import Fade from 'react-reveal/Fade';
+import { Container } from 'react-bootstrap';
 
-function Contact(){
+const Contact = () => {
     return (
-        <section className="page-section" id="contact">
-            <div className="container">
-                <div className="row justify-content-center">
-                    <div className="col-lg-8 text-center">
-                        <h2 className="mt-0">Let's Get In Touch!</h2>
-                        <hr className="divider my-4" />
-                        <p className="text-muted mb-5">Ready to start your next project with us? Give us a call or send us an email and we will get back to you as soon as possible!</p>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
-                        <i className="fas fa-phone fa-3x mb-3 text-muted"></i>
-                        <div>+1 (555) 123-4567</div>
-                    </div>
-                    <div className="col-lg-4 mr-auto text-center">
-                        <i className="fas fa-envelope fa-3x mb-3 text-muted"></i>
-                        <!-- Make sure to change the email address in BOTH the anchor text and the link target below!-->
-                        <a className="d-block" href="mailto:contact@yourwebsite.com">contact@yourwebsite.com</a>
-                    </div>
-                </div>
+      <section id="contact">
+        <Container>
+            <Fade bottom duration={1000} delay={300} distance="0px">
+                <h2 className="section-title">Contact</h2>
+            </Fade>
+            <Fade bottom duration={1000} delay={800} distance="30px">
+            <div className="contact-wrapper">
+              <p className="contact-wrapper__text">
+                Would you like to work with me? 
+              </p>
+              <span className="d-flex mt-6">
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="cta-btn cta-btn--resume" id="contactBtn"
+                        href= "mailto: chapman.andreia@gmail.com"
+                      >
+                        Let's Talk
+                      </a>
+                    </span>
             </div>
-        </section>
+          </Fade>
+        </Container>
+      </section>
     );
-}
-
-export default Contact;
+  };
+  
+  export default Contact;
 
         
