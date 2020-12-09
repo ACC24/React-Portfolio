@@ -4,7 +4,7 @@ import Tilt from 'react-tilt';
 import { Container, Row, Col } from 'react-bootstrap';
 import Project1 from "../../images/project1.jpg";
 import Project2 from "../../images/project2.jpg";
-import Project3 from "../../images/employee.jpg"
+import Project3 from "../../images/house.jpg"
 
 const Projects = () => {
   return (
@@ -168,21 +168,21 @@ const Projects = () => {
                 distance="30px"
               >
                 <div className="project-wrapper__text">
-                  <h3 className="project-wrapper__text-title">Employee Directory</h3>
+                  <h3 className="project-wrapper__text-title">Murder at the Manor</h3>
                   <div>
                     <p>
-                    The Employee Directory app allows the user to filter employees' data by typing the employee's name, and sort by clicking on the name column. 
+                    This application is a murder mystery game built with React. The user is invited to solve a murder case by entering the Bank's mansion and finding clues in each room. When the user is confident of the killer identity he/she can guess the killer and end the game.  
                         </p>
                     <p className="mb-4">
                       <span className="text-color-main">Technologies used: </span>
-                      HTML, CSS, Javascript/ES6, Nodejs, MongoDB, React.
+                      HTML, CSS, Javascript/ES6, Nodejs, React, Redux, React-redux, Adobe Photoshop, , Mongobd, Mongoose, Passport, Reactstrap, React-image-mapper, .jwt-decode.
                         </p>
                   </div>
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
                     className="cta-btn cta-btn--hero"
-                    href="https://acc24.github.io/Employee-Directory/"
+                    href="https://murder-at-the-manor.herokuapp.com/"
                   >
                     See Live
                       </a>
@@ -190,7 +190,7 @@ const Projects = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="cta-btn text-color-main"
-                    href="https://github.com/ACC24/Employee-Directory"
+                    href="https://github.com/ACC24/Murder-Mystery-Game"
                   >
                     Source Code
                       </a>
@@ -206,7 +206,7 @@ const Projects = () => {
               >
                 <div className="project-wrapper__image">
                   <a
-                    href="https://acc24.github.io/Employee-Directory/"
+                    href="https://murder-at-the-manor.herokuapp.com/"
                     target="_blank"
                     aria-label="Project Link"
                     rel="noopener noreferrer"
