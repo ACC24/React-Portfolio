@@ -4,7 +4,7 @@ import Tilt from 'react-tilt';
 import { Container, Row, Col } from 'react-bootstrap';
 import Project1 from "../../images/project1.jpg";
 import Project2 from "../../images/project2.jpg";
-import Project3 from "../../images/house.jpg"
+import Project3 from "../../images/house1.jpg"
 
 const Projects = () => {
   return (
